@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+	background-color: #16161c;
+}
+/* App.css */
+
+.user-item {
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+  }
+  
+  .user-item.liked {
+	border-color: red;
+  }
+  
+  .user-item.saved {
+	border-color: blue;
+  }
+  
